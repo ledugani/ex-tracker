@@ -1,15 +1,23 @@
-body {
-  margin: 25px;
-}
-
 img {
   width: 40%;
   border-radius: 2px;
   margin-bottom: 10px;
 }
 
+footer {
+  margin: 25px;
+}
+
+nav {
+  margin: 30px;
+}
+
 #ex {
   width: 200px;
+}
+
+#locations {
+  margin-left: 25px;
 }
 
 .panel {
