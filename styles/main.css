@@ -1,0 +1,23 @@
+body {
+  margin: 25px;
+}
+
+img {
+  width: 40%;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+#ex {
+  width: 200px;
+}
+
+.panel {
+  padding: 0;
+  margin: 5px;
+  width: 32%;
+}
+
+.jumbotron {
+  background: url('http://i.stack.imgur.com/jGlzr.png');
+}
