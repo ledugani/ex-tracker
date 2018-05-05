@@ -2,37 +2,37 @@
   "locations": [
     {
       "locationImg": "http://www.starbuckseverywhere.net/bigimages/13/DSCN13577.jpg",
-      "Name": "Starbucks",
+      "name": "Starbucks",
       "locationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
       "timeOfDay": "Morning"
     },
     {
       "locationImg": "http://www.bongojava.com/files/2016/08/Fido-004.jpg",
-      "Name": "Fido",
+      "name": "Fido",
       "locationAddress": "1812 21st Ave S, Nashville, TN 37212",
       "timeOfDay": "Morning"
     },
     {
       "locationImg": "https://root.coreylittle.com/williamsonsource/2016/02/Chipotle_Brandon.jpeg-e1454449326576.jpeg",
-      "Name": "Chipotle",
+      "name": "Chipotle",
       "locationAddress": "731 Thompson Ln, Nashville, TN 37204",
       "timeOfDay": "Afternoon"
     },
     {
       "locationImg": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2011/07/The-Nations-Nashville-21.jpg",
-      "Name": "Hattie B's",
+      "name": "Hattie B's",
       "locationAddress": "5209 Charlotte Pike, Nashville, TN 37209",
       "timeOfDay": "Afternoon"
     },
     {
       "locationImg": "https://www.nowplayingnashville.com/wp-content/uploads/sites/www.nowplayingnashville.com/images/2016/02/paradise-park.png",
-      "Name": "Paradise Park",
+      "name": "Paradise Park",
       "locationAddress": "411 Broadway, Nashville, TN 37203",
       "timeOfDay": "Night"
     },
     {
       "locationImg": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2014/02/Hillsboro-Village-Nashville-June-2015-41.jpg",
-      "Name": "Sportsman's Grille",
+      "name": "Sportsman's Grille",
       "locationAddress": "1601 21st Ave S, Nashville, TN 37212",
       "timeOfDay": "Night"
     }
