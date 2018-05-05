@@ -1,3 +1,11 @@
+const writeEx = (ex) => {
+  let exDomString = `<img src="${ex.imageUrl}" id="ex">`;
+  exDomString += `<h1>${ex.name}</h1>`;
+  exDomString += `<p>Age: <em>${ex.age}</em></p>`;
+  exDomString += `<p>Flaws: <em>${ex.flaws}</em></p>`;
+  return exDomString;
+};
+
 const writeLocations = (locations) => {
   let domString = '';
   locations.forEach((location) => {
@@ -16,4 +24,7 @@ const writeLocations = (locations) => {
   return domString;
 };
 
-module.exports = writeLocations;
+module.exports = {
+  writeLocations,
+  writeEx,
+};

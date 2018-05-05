@@ -1,8 +1,13 @@
 const loadLocations = require('./locations');
-const writeLocations = require('./dom');
+const loadEx = require('./ex');
+const domStrings = require('./dom');
 
-const whenPageLoads = (data) => {
-  $('#container').append(writeLocations(data.locations));
+const whenExLoads = (data) => {
+  $('#container').append(domStrings.writeEx(data));
+};
+
+const whenLocationsLoad = (data) => {
+  $('#locations').append(domStrings.writeLocations(data.locations));
 };
 
 const ifErrorOccurs = (error) => {
@@ -10,7 +15,8 @@ const ifErrorOccurs = (error) => {
 };
 
 const initializer = () => {
-  loadLocations(whenPageLoads, ifErrorOccurs);
+  loadEx(whenExLoads, ifErrorOccurs);
+  loadLocations(whenLocationsLoad, ifErrorOccurs);
 };
 
 module.exports = initializer;
