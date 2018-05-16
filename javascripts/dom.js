@@ -9,7 +9,7 @@ const writeEx = (ex) => {
 const writeLocations = (locations) => {
   let domString = '';
   locations.forEach((location) => {
-    domString += `<div id="${location.timeOfDay}" class="panel panel-default col-md-4">`;
+    domString += `<div id="${location.timeOfDay}" class="panel panel-default col-md-4 locationcard">`;
     domString +=   `<div class="panel-heading">`;
     domString +=     `<h3 class="panel-title text-center">${location.name}</h3>`;
     domString +=         `</div>`;
