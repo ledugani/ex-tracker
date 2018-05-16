@@ -1,6 +1,7 @@
 const loadLocations = require('./locations');
 const loadEx = require('./ex');
 const domStrings = require('./dom');
+const bindEvents = require('./events');
 
 const whenExLoads = (data) => {
   $('#container').append(domStrings.writeEx(data));
@@ -8,6 +9,7 @@ const whenExLoads = (data) => {
 
 const whenLocationsLoad = (data) => {
   $('#locations').append(domStrings.writeLocations(data.locations));
+  bindEvents();
 };
 
 const ifErrorOccurs = (error) => {
