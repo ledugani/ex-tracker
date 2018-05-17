@@ -1,6 +1,7 @@
 {
   "exes": [
     {
+      "exId": "watson",
       "imageUrl": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQzMzAxODc2MTU3MjYxMzgz/emma-watson_gettyimages-619546914jpg.jpg",
       "name": "Emma Watson",
       "age": "28",
@@ -8,14 +9,16 @@
       "locations": [3, 6, 9]
     },
     {
-      "imageUrl": "https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2015%2F08%2F082715-emma-roberts.jpg%3Fitok%3D-DSuRIbx&w=800&q=85",
+      "exId": "roberts",
+      "imageUrl": "https://cdn.verbolia.com/api/images/H4sIAAAAAAAEAD2NuwoCMRBFf0Wm1mTRLp2FoIWND6yT7JBEMptlMsqK+O9GFNvDuec+4cwZDESRsRqtfT+oO7IrOVnlC+k6FhGdyAas2mNGx0keGonsgotDlqquY4A57O2U6EZbTCEKmGXX!dkl9RJ!aJ0FebCCJ5yaBptWmh2+pVbZfZ6Owii+LVavN7f+Hw6hAAAA/emma-roberts.jpg",
       "name": "Emma Roberts",
       "age": "27",
       "flaws": "Kind of weird, but I have a thing for Emma's",
       "locations": [1, 4, 8]
     },
     {
-      "imageUrl": "https://media.self.com/photos/585c0ea98a2a9595367fa2df/4:3/w_728,c_limit/emma-stone-anxiety.jpg",
+      "exId": "stone",
+      "imageUrl": "https://www.wikifame.org/thumber.php?src=/photos/244782_poza1.jpg",
       "name": "Emma Stone",
       "age": "29",
       "flaws": "Snorts when she laughs",

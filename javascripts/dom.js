@@ -1,8 +1,15 @@
-const writeEx = (ex) => {
-  let exDomString = `<img src="${ex.imageUrl}" id="ex">`;
-  exDomString += `<h1>${ex.name}</h1>`;
-  exDomString += `<p>Age: <em>${ex.age}</em></p>`;
-  exDomString += `<p>Flaws: <em>${ex.flaws}</em></p>`;
+const writeEx = (exes) => {
+  let exDomString = '';
+  exes.forEach((ex) => {
+    exDomString += `<div class="margin ${ex.exId}">`;
+    exDomString +=  `<div class="col-sm-4">`;
+    exDomString +=    `<img src="${ex.imageUrl}" id="ex">`;
+    exDomString +=    `<h1>${ex.name}</h1>`;
+    exDomString +=    `<p>Age: <em>${ex.age}</em></p>`;
+    exDomString +=    `<p>Flaws: <em>${ex.flaws}</em></p>`;
+    exDomString +=  `</div>`;
+    exDomString += `</div>`;
+  });
   return exDomString;
 };
 

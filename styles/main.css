@@ -14,10 +14,15 @@ nav {
 
 #ex {
   width: 200px;
+  height: 200px;
 }
 
 #locations {
   margin-left: 25px;
+}
+
+#wood {
+  background: url('http://i.stack.imgur.com/jGlzr.png');
 }
 
 .panel {
@@ -26,6 +31,7 @@ nav {
   width: 32%;
 }
 
-.jumbotron {
-  background: url('http://i.stack.imgur.com/jGlzr.png');
+.margin {
+  margin-left: 25px;
+  margin-right: 25px;
 }
